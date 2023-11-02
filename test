@@ -1,0 +1,53 @@
+Condition
+
+1. If(condition){
+
+}
+else if(){
+
+}
+else if(){
+
+}
+else{
+
+}
+
+2. Switch(mainvalue){
+    case value:......;break;
+    case value:.......;break;
+}
+
+3. Ternary Operator (?)
+
+Loop : for iteration
+
+1. For Loop
+-for Loop
+for(starting_point;condition;step point)
+-for in
+-for of
+
+2.while
+let starting_point
+-while(condition)
+{
+
+    step point
+}
+-do{
+  
+    step point
+}
+ while()
+
+
+
+
+mark => input value
+
+mark => Grade Point
+
+mark>=80 => Grade A
+75>= && <80 => B
+65>= && <75 => C

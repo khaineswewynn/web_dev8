@@ -1,0 +1,54 @@
+.dropdown-item:hover{
+    background-color: black !important;
+    color:white !important;
+   
+}
+.dropdown-menu{
+    top:50px !important;
+    left:-150px !important;
+    background-color: var(--bs-blue) !important;
+    width: 600px;
+}
+.dropdown-menu ul {
+    list-style-type:none;
+}
+.dropdown-menu .sub1{
+    border-right:2px solid black;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    border:2px solid white !important;
+    border-radius: 50%;
+    background-color: blue;
+}
+.carousel-control-prev-icon{
+    position:absolute;
+    top:100px;
+    left:200px;
+}
+.carousel-control-next-icon,.next-slide{
+    position: absolute;
+    bottom: 100px;
+    right:200px;
+}
+.next-slide{
+    position: absolute;
+    bottom: 100px;
+    right:150px;
+}
+.item{
+    background:linear-gradient(to right,rgba(131,96,195,0.3),rgba(46,191,145,0.5)),url(../images/bagan_banner.jpg);
+    background-size: cover;
+    height:400px;
+    position:relative;
+}
+.item-content{
+    position: absolute;
+    bottom:150px;
+    right:40%;
+}
+.item-content p{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color:white;
+}
